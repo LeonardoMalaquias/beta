@@ -5,7 +5,6 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 import { ClientFormService } from './client-form.service';
-import { ClientForm } from './client-form.model';
 
 describe('ClientFormService', () => {
   let service: ClientFormService;
