@@ -1,5 +1,23 @@
 {
   "projects": {
-    "default": "godecoapplication"
+    "default": "godecoapplication",
+    "prod": "godeco-prod",
+    "staging": "godecoapplication"
+  },
+  "targets": {
+    "godecoapplication": {
+      "hosting": {
+        "godecoapp": [
+          "godecoapplication"
+        ]
+      }
+    },
+    "godeco-prod": {
+      "hosting": {
+        "godecoapp": [
+          "prod"
+        ]
+      }
+    }
   }
 }

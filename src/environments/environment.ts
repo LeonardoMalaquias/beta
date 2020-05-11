@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+	production: false,
+	firebase:{
+	   	apiKey: "AIzaSyDQJLa2WrtNhy6qsaeOMQi8Y31YXSH3_Pc",
+		authDomain: "godecoapplication.firebaseapp.com",
+		databaseURL: "https://godecoapplication.firebaseio.com",
+		projectId: "godecoapplication",
+		storageBucket: "godecoapplication.appspot.com",
+		messagingSenderId: "113348495663",
+		appId: "1:113348495663:web:20f50034f481d78b6239da"
+	}
 };
 
 /*
